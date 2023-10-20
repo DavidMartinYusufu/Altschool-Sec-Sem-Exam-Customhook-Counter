@@ -1,0 +1,134 @@
+#root {
+  text-align: center;
+}
+
+body {
+  background-color: #fdfafa;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inc-dec-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.span-h2 {
+  min-width: 60px;
+  font-size: 25px;
+  color: #05386B;
+}
+
+h1 {
+  color: #05386B;
+}
+
+.inc-btn {
+  font-size: 30px;
+}
+
+.dec-btn {
+  font-size: 30px;
+}
+
+button {
+  background-color: #5CDB95;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+button:hover {
+box-shadow: rgba(71, 231, 197, 0.2) 0px 8px 24px;
+cursor: pointer;
+}
+
+.set-value-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(174, 174, 177, 0.15) 0px 48px 100px 0px;
+  min-width: 250px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.links {
+  margin-top: 35px;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.link1{
+  text-decoration: none;
+  background-color: #05386B;
+  color: #fff;
+  border-radius: 10px;
+  width: 40px;
+}
+
+.link2{
+  text-decoration: none;
+  color: #fff;
+  background-color: #05386B;
+  border-radius: 10px;
+  width: 80px;
+}
+
+.div-404 {
+  min-width: 200px;
+  margin-top: 25px;
+}
+
+.link-404 {
+  color: #fff;
+  background-color: #5CDB95;
+  padding: 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #05386B;
+}
+
+.image-404 img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.image-404{
+  margin-top: 25px;
+}
+
+input {
+  border-radius: 20px;
+  border: 1px solid rgb(218, 213, 213);
+  padding: 8px 10px;
+}

@@ -1,0 +1,30 @@
+## Custom Counter Hook Documentation
+
+### What it does?
+    This is a custom counter hook app which consist of a Counter app page, 
+    404 page and also Error testing page.
+
+###Folders -->
+
+## Hooks 
+    This custom hook provides functionality for managing a counter.
+
+## Components
+    This consist of the Error boundary file.
+
+## Images
+    This consist of the images used.
+
+#### Functions:
+
+- `increment`: Increments the counter by 1.
+- `decrement`: Decrements the counter by 1.
+- `reset`: Resets the counter to 0.
+- `setValue(value)`: Sets the counter to the specified value.
+
+#### Events:
+
+- handleIncrement 
+- handleDecrement 
+- handleReset
+- handleInput 
